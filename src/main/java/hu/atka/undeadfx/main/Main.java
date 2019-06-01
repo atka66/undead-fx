@@ -14,7 +14,7 @@ public class Main extends Application {
 		Parent root = FXMLLoader.load(getClass().getResource("/fxml/MainFXML.fxml"));
 
 		Scene scene = new Scene(root, Settings.WINDOW_WIDTH - 10, Settings.WINDOW_HEIGHT - 10);
-		stage.setTitle("Dither FX");
+		stage.setTitle("Undead FX");
 		stage.setResizable(false);
 		stage.setScene(scene);
 		stage.show();
